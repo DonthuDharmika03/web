@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <script src="js/bootstrap.min.js"></script>
+      <link href="registration.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1 align="center"><u>HABIB IT SOLUTIONS</u></h1>
+        <h1 align="center">Registration Form</h1>
+        <div class="container" id="firstcontainer">
+          <div class="row" id="firstrow">
+            <h2><u>PERSONAL DETAILS:</u></h2>
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+              </div>
+            </div>
+            <br>
+            <h3>DOB:</h3>
+            <div class="row">
+              <div class="col">
+                <input type="number" class="form-control" placeholder="dd/mm/yyyy" aria-label="First name">
+              </div>
+            </div>
+            <h3>GENDER:</h3>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+              <label class="form-check-label" for="inlineCheckbox1">Male</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+              <label class="form-check-label" for="inlineCheckbox2">Female</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+              <label class="form-check-label" for="inlineCheckbox3">Others</label>
+            </div>
+            <h3>CONTACT DETAILS:</h3>
+            <form class="row g-3">
+              <label class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+              </label>
+              <label class="col-md-6">
+                <label for="inputPassword4" class="form-label">Contact no.</label>
+                <input type="number" class="form-control" id="inputnumber4">
+              </label>
+              <br>
+              <form class="row g-3">
+              <label class="col-md-6">
+                <label for="inputEmail4" class="form-label">Create Password</label>
+                <input type="password" class="form-control" id="inputpassword4">
+              </label>
+              <label class="col-md-6">
+                <label for="inputPassword4" class="form-label">Confirm Password</label>
+                <input type="password" class="form-control" id="inputpassword4">
+              </label>
+            </form>
+            <h3>RESIDENTIAL ADDRESS:</h3>
+            <form class="row g-3"> 
+              <label class="col-12">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              </label>
+              <label class="col-12">
+                <label for="inputAddress2" class="form-label">Address 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+              </label>
+            </form>  
+              <label class="col-md-6">
+                <label for="inputCity" class="form-label">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </label>
+              <label class="col-md-4">
+                <label for="inputState" class="form-label">State</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>ANDHRA PRADESH</option>
+                  <option>ARUNACHAL PRADESH</option>
+                  <option>ASSAM</option>
+                  <option>BIHAR</option>
+                  <option>CHATTISGARH</option>
+                  <option>MADHYA PRADESH</option>
+                  <option>RAJASTHAN</option>
+                  <option>TAMIL NADU</option>
+                  <option>KARNATAKA</option>
+                  <option>TELANGANA</option>
+                  <option>KERALA</option>
+                </select>
+              </label>
+              <div class="col-md-2">
+                <label for="inputZip" class="form-label">Pin Code</label>
+                <input type="number" class="form-control" id="inputZip">
+              </div>
+            </form>
+          </div>
+          <div class="row" id="second row">
+            <h2><u>EDUCATIONAL QUALIFICATIONS:</u></h2>
+            <h3>SSC:</h3>
+            <div class="mb-3 row">
+              <label for="staticEmail" class="col-sm-2 col-form-label">School Name</label>
+              <div class="col-sm-10">
+                <input type="text" readonly class="form-control-plaintext" id="scl name">
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="inputPassword" class="col-sm-2 col-form-label">Board of Education</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="boe">
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="staticEmail" class="col-sm-2 col-form-label">Year of Passing</label>
+              <div class="col-sm-10">
+                <input type="number" readonly class="form-control-plaintext" id="Passing">
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="inputPassword" class="col-sm-2 col-form-label">Grade</label>
+              <div class="col-sm-10">
+                <input type="number" class="form-control" id="grade">
+              </div>
+            </div>
+            <h3>INTERMEDIATE:</h3>
+            <div class="mb-3 row">
+              <label for="staticEmail" class="col-sm-2 col-form-label">College Name</label>
+              <div class="col-sm-10">
+                <input type="text" readonly class="form-control-plaintext" id="clg name">
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="inputPassword" class="col-sm-2 col-form-label">Board of Education</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="boe">
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="staticEmail" class="col-sm-2 col-form-label">Year of Passing</label>
+              <div class="col-sm-10">
+                <input type="number" readonly class="form-control-plaintext" id="Passing">
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="inputPassword" class="col-sm-2 col-form-label">Grade</label>
+              <div class="col-sm-10">
+                <input type="number" class="form-control" id="grade">
+              </div>
+            </div>
+            <h3>GRADUATION:</h3>  
+            <div class="mb-3 row">
+              <label for="staticEmail" class="col-sm-2 col-form-label">College Name</label>
+              <div class="col-sm-10">
+                <input type="text" readonly class="form-control-plaintext" id="clg name">
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="inputPassword" class="col-sm-2 col-form-label">University</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="uni">
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="staticEmail" class="col-sm-2 col-form-label">Year of Passing</label>
+              <div class="col-sm-10">
+                <input type="number" readonly class="form-control-plaintext" id="Passing">
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="inputPassword" class="col-sm-2 col-form-label">Sem-1</label>
+              <div class="col-sm-10">
+                <input type="number" class="form-control" id="grade">
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="inputPassword" class="col-sm-2 col-form-label">Sem-2</label>
+              <div class="col-sm-10">
+                <input type="number" class="form-control" id="grade">
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="inputPassword" class="col-sm-2 col-form-label">Sem-3</label>
+              <div class="col-sm-10">
+                <input type="number" class="form-control" id="grade">
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="inputPassword" class="col-sm-2 col-form-label">Sem-4</label>
+              <div class="col-sm-10">
+                <input type="number" class="form-control" id="grade">
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="inputPassword" class="col-sm-2 col-form-label">Sem-4</label>
+              <div class="col-sm-10">
+                <input type="number" class="form-control" id="grade">
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="inputPassword" class="col-sm-2 col-form-label">Sem-5</label>
+              <div class="col-sm-10">
+                <input type="number" class="form-control" id="grade">
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="inputPassword" class="col-sm-2 col-form-label">Sem-6</label>
+              <div class="col-sm-10">
+                <input type="number" class="form-control" id="grade">
+              </div>
+            </div>
+          </div>
+          <div class="row" id="third row">
+            <h2><u>ID PROOFS:</u></h2>
+            <div class="mb-3">
+              <label for="formFile" class="form-label">Aadhar Card</label><br>
+              <input class="form-control" type="file" id="formFile">
+            </div>
+            <div class="mb-3">
+              <label for="formFile" class="form-label">Pan Card</label><br>
+              <input class="form-control" type="file" id="formFile">
+            </div>
+            <div class="mb-3">
+              <label for="formFile" class="form-label">Photo</label><br>
+              <input class="form-control" type="file" id="formFile">
+            </div>
+            <div class="mb-3">
+              <label for="formFile" class="form-label">Aadhar Card</label><br>
+              <input class="form-control" type="file" id="formFile">
+            </div>
+          </div>
+          <div class="row" id="fourth row">
+            <h2><u>RESUME:</u></h2>
+            <div class="mb-3">
+              <label for="formFile" class="form-label">Resume</label><br>
+              <input class="form-control" type="file" id="formFile">
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="container" id="secondcontainer">
+          <head>
+            <title>My Resume Application</title>
+            <style>
+                .Details{border:1px solid;padding-left:20px;font-size:20px;font-style:italic;background-color:peachpuff}
+                body{margin: 40px}
+                img{margin-right:20px;
+                    margin-top:25px}
+                .Career{font-size:20px;font-style:italic;background-color:rgb(133, 133, 216)}
+                .Educational-Qualifications{font-size:20px;font-style:italic;background-color:#00ff00}
+                .Hobbies{font-size:20px;font-style:italic;background-color:crimson}
+                .Skills{font-size:20px;font-style:italic;background-color:violet}
+                .Strengths{font-size:20px;font-style:italic;background-color:aqua}
+                .Personal{font-size:20px;font-style:italic;background-color:goldenrod}
+                .Declaration{font-size:20px;font-style:italic;background-color:yellow}
+            </style>
+            </head>
+            <body>
+                <img src="C:\Users\USER\Desktop\YESHU\GetCloudyConsultingLogo.png" height="150px" width="150px" align="right">
+                <div class="Details">
+            <h2>Details</h2>
+            <p>Name:D.Dharmika</p>
+            <p>Email:donthudharmika@gmail.com<p>
+            <p>LinkedIn profile URL:<a href="https://www.linkedin.com/in/dharmika-donthu-316523233/">Dharmika</a></p>
+            <p>Contact no:7386155208</p>
+            </div>
+            <hr>
+            <div class=Career Objective>
+            <h2>Career Objective</h2>
+            <p>To explore new areas of work to gain my learnings,skills and knowledge</p>
+            </div>
+            <hr>
+            <div class="Educational-Qualifications">
+                <h2>Educational Qualifications</h2>
+            <table border="1px" width="75%" cellspacing="3px" cellpadding="6px">
+            <tr><th>Course</th>
+                <th>Institution</th>
+                <th>Year of Passing</th>
+                <th>Marks</th>
+            </tr>
+            <tr><td>B.Sc BZC</td>
+                <td>St.Joseph's Degree</td>
+                <td>2023</td>
+                <td>Ongoing</td>
+            </tr>
+            <tr><td>Intermediate</td>
+                <td>Sri Chaitanya Junior College</td>
+                <td>2020</td>
+                <td>9.25</td>
+            </tr>
+            <tr><td>SSC</td>
+                <td>Keshava Reddy School</td>
+                <td>2018</td>
+                <td>9.5</td>
+            </tr>
+            </table>
+            </div>
+            <hr>
+            <div class="Hobbies">
+                <h2>Hobbies</h2>
+                <ul type="square"><li>Drawing</li>
+                    <li>Reading books</li>
+                </ul>
+            </div>
+            <hr>
+            <div class="Skills">
+                <h2>Skills</h2>
+                <ol type="A"><li>Communication skills</li>
+                    <li>Leadership</li>
+                    <li>Problem Solving</li>
+                </ol>
+            </div>
+            <hr>
+            <div class="Strengths">
+                <h2>Strengths</h2>
+                <ol><li>Quick Learner</li>
+                    <li>Multi Tasking</li>
+                    <li>Self Motivated</li>
+                </ol>
+            </div>
+            <hr>
+            <div class="Personal Details">
+                <h2>Personal Details</h2>
+                <p>D.Dharmika</p>
+                <p>D/O D.Venkateswarlu</p>
+                <p>Flat no.102,MRB Apartments,Road no.2,V.R.Colony,Kurnool</p>
+                <p>donthudharmika@gmail.com</p>
+                <p>7386155208</p>
+            </div>
+            <hr>
+            <div class="Declaration">
+                <h2>Declaration</h2>
+                <p>I hereby declare that the above information presented in this resume is valid and true to my knowledge</p>    
+            </div>
+          </body>
+
+        </div>
+    </body>
+</html>
