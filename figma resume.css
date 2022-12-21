@@ -1,0 +1,98 @@
+#con{
+    margin: 30px;
+}
+#img{
+    border-radius: 90px;
+    border-color: white;
+    border: 6px solid;
+    margin-left: 3px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: 180px;
+    width: 180px;
+}
+#col1{
+    background-color: black;
+    height: 850px;
+    color: white;
+    font-size:12px;
+}
+#col2{
+    background-color: #F4F4F4;
+    font-size: 12px;
+    width: 450px;
+    padding-left: 40px;
+    border: 1px gray solid;
+    margin-left: -10px;
+}
+#contact{
+    font-size: 17px;
+    margin-left: 10px;
+    margin-bottom: -1px;
+}
+#details{
+    margin-left: 5px;
+    margin-top: -1px;
+}
+#skills{
+    font-size: 17px;
+    margin-left: 10px;
+    margin-bottom: -1px;
+}
+#list{
+    margin-left: 20px;
+}
+#strengths{
+    font-size: 17px;
+    margin-left: 10px;
+    margin-bottom: -1px;
+}
+#multi{
+    margin-left: 20px;
+}
+#hr1{
+    margin-left: 1px; 
+    width: 180px; 
+    height: 10px;
+    color: white;
+}
+#hobbies{
+    font-size: 17px;
+    margin-left: 10px;
+    margin-bottom: -1px;
+}
+#draw{
+    margin-left: 20px;
+    margin-top: -10px
+}
+#read{
+    margin-top: -10px;
+}
+#quick{
+    margin-top: -15px;
+}
+#name{
+    font-size: 35px;
+    margin-top: 60px;
+}
+#web{
+    margin-left: 75px;
+    font-size:large;
+    margin-top: -18px;
+}
+#profile{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: -1px;
+}
+#work{
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: -1px;
+}
+#education{
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: -16px;
+}
